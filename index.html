@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Subway Multistep Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav flex">
+        <img src="Assets/Logo.svg" alt="logo" class="logo-img">
+        <button class="btn-nav">Create an account</button>
+      </nav>
+    </header>
+    <main>
+      <section class="page-one">
+          <section class="steps flex">
+            <div class="step-content f-name  flex">
+              <p class="step-num active">1</p>
+              <p>Full Name</p>
+            </div>
+            <div class="step-content p-info flex">
+              <p class="step-num">2</p>
+              <p>Personal Information</p>
+            </div>
+            <div class="step-content identification flex">
+              <p class="step-num">3</p>
+              <p>Identification</p>
+            </div>
+            <div class="step-content qr-code flex">
+              <p class="step-num">4</p>
+              <p>Your QR Code</p>
+            </div>
+          </section>
+          <section class="main-heading">
+            <h1 class="page-one-h1">Using the Subway has never been easier!</h1>
+            <p>Complete the sign up process and receive a QR code you can use to use the Subway anywhere in the U.S.</p>
+          </section>
+          <section class="required-fields">
+            <form class="flex">
+              <div class="first-name-field">
+              <label>First Name</label><br>
+              <input type="text" placeholder="Steve" class="input-field focus input-name-field"></input><br>
+            </div>
+            <div class="middle-name-field">
+              <label>Middle Name</label><br>
+              <input type="text" placeholder="Andrew" class="input-field middle-name-input">
+            </div>
+             <div class="last-name-field">
+              <label>Last Name</label><br>
+              <input type="text" placeholder="Hernands" class="input-field last-name-input">
+            </div>
+          </form>
+        </section>
+          <section class="next-btn">
+            <button class="btn-next">Next</button>
+          </section>
+       </section> 
+    <section class="page-two">
+      <section class="steps flex">
+            <div class="step-content f-name  flex">
+              <p class="step-num ">1</p>
+              <p>Full Name</p>
+            </div>
+            <div class="step-content p-info flex">
+              <p class="step-num active">2</p>
+              <p>Personal Information</p>
+            </div>
+            <div class="step-content identification flex">
+              <p class="step-num">3</p>
+              <p>Identification</p>
+            </div>
+            <div class="step-content qr-code flex">
+              <p class="step-num">4</p>
+              <p>Your QR Code</p>
+            </div>
+          </section>
+          <section class="main-heading">
+            <h1 class="page-two-h1">Enter your personal information</h1>
+            <p>This is used to match what you wrote to confirm your identity. This is required by law.</p>
+          </section>
+          <section class="required-fields">
+            <form class="flex">
+              <div class="first-name-field">
+              <label>Date of Birth</label><br>
+              <input type="text" placeholder="May 5, 1976" class="input-field  input-name-field"></input><br>
+            </div>
+            <div class="middle-name-field">
+              <label>Phone Number</label><br>
+              <input type="text" placeholder="521-231-464" class="input-field middle-name-input">
+            </div>
+             <div class="last-name-field">
+              <label>Address</label><br>
+              <input type="text" placeholder="15 Yemen Road, Yemen" class="input-field last-name-input">
+            </div>
+          </form>
+        </section>
+          <section class="next-btn">
+            <button class="btn-next">Next</button>
+          </section>
+    </section>
+    <section class="page-three">
+      <section class="steps flex">
+            <div class="step-content f-name  flex">
+              <p class="step-num ">1</p>
+              <p>Full Name</p>
+            </div>
+            <div class="step-content p-info flex">
+              <p class="step-num ">2</p>
+              <p>Personal Information</p>
+            </div>
+            <div class="step-content identification flex">
+              <p class="step-num active">3</p>
+              <p>Identification</p>
+            </div>
+            <div class="step-content qr-code flex">
+              <p class="step-num">4</p>
+              <p>Your QR Code</p>
+            </div>
+          </section>
+          <section class="main-heading">
+            <h1 class="page-three-h1">Upload identification</h1>
+            <p>Acceptable forms of identification are ID, Driver's License or College ID.</p>
+          </section>
+          <section class="drag-drop-section ">
+            <div class="drag-drop-box flex">
+            <img src="Assets/Folder.svg" alt="folder-img" class="folder-img">
+            <p>Drag and Drop an image of your ID here</p>
+          </div>
+        </section>
+          <section class="next-btn">
+            <button class="btn-next">Next</button>
+          </section>
+    </section>
+    <section class="page-four">
+      <section class="steps flex">
+          <div class="step-content f-name  flex">
+              <p class="step-num ">1</p>
+              <p>Full Name</p>
+            </div>
+            <div class="step-content p-info flex">
+              <p class="step-num ">2</p>
+              <p>Personal Information</p>
+            </div>
+            <div class="step-content identification flex">
+              <p class="step-num">3</p>
+              <p>Identification</p>
+            </div>
+            <div class="step-content qr-code flex">
+              <p class="step-num active">4</p>
+              <p>Your QR Code</p>
+            </div>
+          </section>
+          <section class="main-heading">
+            <h1 class="page-four-h1">Here's your QR Code!</h1>
+            <p>Scan this code the next time you're in the subway, you will not need to pay for tickets.</p>
+          </section>
+          <section class="qr-section ">
+            <img src="Assets/QR Code.svg" alt="qr-img" class="qr-img">
+          </section>
+      </section>
+      <hr class="hr-line">
+    </main>
+    <footer class="footer flex">
+      <p>&copy;2021 Codewell cc</p>
+      <div class="footer-right-content flex">
+        <a href="#" class="link-footer">Support</a>
+        <a href="#" class="link-footer">Privacy Policy</a>
+        <a href="#" class="link-footer">Terms & Conditions</a>
+      </div>
+    </footer>
+  </body>
+</html>
